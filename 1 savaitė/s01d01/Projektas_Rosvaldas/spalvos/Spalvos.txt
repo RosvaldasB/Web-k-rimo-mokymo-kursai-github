@@ -1,0 +1,7 @@
+#ffffff - balta 
+#fbad27 - geltona/oražinė
+#4a4a4a - juoda(paryškintos raidės)
+#979797 - tamsesnė raidžių spalva, pilkos atspalvis
+#999999 - tamsesnė raidžių spalva, pilkos atspalvis
+#616161 - tamsesnė raidžių spalva, pilkos atspalvis
+#?????? - gradientas, šešėlis (fcf9f4 -> fbf9f5 -> faf9f6)

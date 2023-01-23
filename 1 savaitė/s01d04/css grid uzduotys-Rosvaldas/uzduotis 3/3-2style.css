@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40px auto 40px;
+    grid-template-areas:
+    "head head head"
+    "sid cont sid2"
+    "foot foot foot";
+}
+
+.container > div {
+    border-radius: 3px;
+}
+
+
+.Header {
+    background-color:grey;
+    color: white;
+    grid-area: head;
+}
+
+.Sidebar {
+    background-color:rgb(50, 48, 48);
+    grid-area: sid;
+    color: white;
+}
+
+.Content {
+    grid-area: cont;
+    background-color: rgb(50, 48, 48);
+    color: white;
+}
+
+.Sidebar-2 {
+    grid-area: sid2;
+    background-color: rgb(209, 204, 204);
+}
+
+.Footer {
+    grid-area: foot;
+    background-color: gray;
+    color: white;
+}
+

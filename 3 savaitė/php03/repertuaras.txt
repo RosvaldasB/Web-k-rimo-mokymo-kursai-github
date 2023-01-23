@@ -1,0 +1,12 @@
+SELECT theatres.name, movies.title FROM theatres_movies
+JOIN theatres ON theatres.id = theatres_movies.theatre_id
+JOIN movies ON movies.id = theatres_movies.movie_id
+
+SELECT theatres.name, movies.title, theatres_movies.end_date FROM theatres_movies
+JOIN theatres ON theatres.id = theatres_movies.theatre_id
+JOIN movies ON movies.id = theatres_movies.movie_id
+WHERE CURRENT_DATE <= theatres_movies.end_date
+
+SELECT movies.title, COUNT(theatres_movies.movie_id) FROM theatres_movies
+JOIN movies ON movies.id = theatres_movies.movie_id
+GROUP BY movies.title

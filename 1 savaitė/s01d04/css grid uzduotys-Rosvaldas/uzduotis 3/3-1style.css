@@ -1,0 +1,93 @@
+.container {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px auto auto auto 50px;
+    grid-template-areas:
+    "head head head"
+    "sid cont sid2"
+    "foot foot foot";
+}
+
+.container > div {
+    border-radius: 3px;
+}
+
+
+.Header {
+    background-color:grey;
+    color: white;
+    grid-area: head;
+}
+
+.Sidebar {
+    background-color:rgb(50, 48, 48);
+    grid-area: sid;
+    color: white;
+}
+
+.Content {
+    grid-area: cont;
+    background-color: rgb(50, 48, 48);
+    color: white;
+}
+
+.Sidebar-2 {
+    grid-area: sid2;
+    background-color: rgb(209, 204, 204);
+}
+
+.Footer {
+    grid-area: foot;
+    background-color: gray;
+    color: white;
+    min-height: 50px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .container {
+        display: grid;
+        grid-gap: 8px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 50px auto auto 50px;
+        grid-template-areas:
+        "head head head"
+        "sid cont cont"
+        "sid2 sid2 sid2"
+        "foot foot foot";
+    }
+    .Sidebar {
+        flex-shrink: 2;
+    } 
+    .Content {
+        flex-shrink: 1;
+    }
+    .Sidebar, .Content {
+        width: calc(33,333% - 66.666% - 8px);
+    }
+    .Sidebar-2 {
+        min-height: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Sidebar {
+        min-height: 100px;
+    }
+    .Sidebar-2 {
+        min-height: 100px;
+    }
+    
+    .container {
+        display: grid;
+        grid-gap: 8px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 50px auto auto auto 50px;
+        grid-template-areas:
+        "head"
+        "sid"
+        "cont" 
+        "sid2"
+        "foot";
+    }
+}

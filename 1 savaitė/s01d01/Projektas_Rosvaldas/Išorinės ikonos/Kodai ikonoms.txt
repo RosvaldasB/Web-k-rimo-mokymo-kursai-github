@@ -1,0 +1,15 @@
+Telefono ikona - <i class="fa-sharp fa-solid fa-phone"></i>
+Video paleidimo ikona - <i class="fa-regular fa-circle-play"></i>
+Lėktuvas - <i class="fa-regular fa-plane-engines"></i>
+Širdis - <i class="fa-solid fa-heart"></i>
+Žvaigždutė - <i class="fa-regular fa-star"></i>
+Apskritimas su tašku - <i class="fa-regular fa-circle-dot"></i>
+Lupa - <i class="fa-light fa-magnifying-glass"></i>
+Twitter - <i class="fa-brands fa-square-twitter"></i>
+Facebook - <i class="fa-brands fa-facebook"></i>
+Instagram - <i class="fa-brands fa-square-instagram"></i>
+rodyklė dešinėn - <i class="fa-solid fa-arrow-right"></i>
+rodyklė kairėn - <i class="fa-solid fa-arrow-left"></i>
+
+Kit kodas
+<script src="https://kit.fontawesome.com/6337da2237.js" crossorigin="anonymous"></script>

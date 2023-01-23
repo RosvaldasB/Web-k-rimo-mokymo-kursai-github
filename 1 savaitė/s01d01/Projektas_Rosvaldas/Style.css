@@ -1,0 +1,52 @@
+*
+**::before
+**::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.site-header {
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 1276px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.site-header .container{
+ justify-content:space-between;
+ align-items: center;
+}
+
+.main-nav li {
+    list-style: none;
+}
+
+.backgroundvideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    size: auto;
+}
+
+
+

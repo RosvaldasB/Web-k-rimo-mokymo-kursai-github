@@ -1,0 +1,12 @@
+SELECT books.title FROM books
+JOIN authors ON authors.id = books.author_id
+GROUP by authors.id
+
+SELECT books.title FROM books
+JOIN authors ON authors.id = books.author_id
+GROUP by author_id
+
+SELECT authors.name, authors.surname, authors.id FROM authors
+LEFT JOIN authors ON authors.id = books.author_id
+WHERE books.author_id = books.title
+GROUP BY authors.id

@@ -1,0 +1,54 @@
+html, body {
+    background-color: #e8ccb0;
+    margin: 10px;
+}
+
+.container > div {
+    border-radius: 3px;
+}
+
+.red {
+    background-color: rgb(241, 52, 52);
+}
+
+.blue {
+    background-color: rgb(28, 28, 206);
+}
+
+.green {
+    background-color: rgb(42, 128, 42);
+}
+
+.purple {
+    background-color: rgb(122, 64, 122);
+}
+
+.yellow {
+    background-color: rgb(214, 214, 25);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 50px) / repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.red {
+    grid-column: 1 / -1;
+}
+
+.blue {
+    grid-column: 3 / -1;
+}
+
+.green {
+    grid-column: 1 / 2;
+}
+
+.purple {
+    grid-column: 2 / -1;
+}
+
+.yellow {
+    grid-column: 1 / -1;
+}

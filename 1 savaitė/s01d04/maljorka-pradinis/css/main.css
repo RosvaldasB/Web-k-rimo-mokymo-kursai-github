@@ -1,0 +1,32 @@
+.features .bi {
+font-size: 32px;
+color: lightskyblue;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.footer a:hover {
+color: #fff;
+}
+
+.card {
+    flex-direction: row;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+img {
+    display: block;
+    width: 100%;
+}

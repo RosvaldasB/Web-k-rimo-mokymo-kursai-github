@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+header {
+    background-color: green;
+}
+
+h1, h2 {
+    color: red;
+    font-size: 30px;
+}
+
+p.main-text.active {
+    font-weight: 1200; font-style: italic;
+}
+
+div > p {
+    text-decoration: underline;
+}
+
+.para {
+    color: aquamarine;
+}
+
+.highlight.para {
+    color: blue;
+}
+
+.highlight .para {
+    color: orange;
+}
+
+h3 {
+    color: brown;
+}
+
+h3:hover {
+    color: black;
+}
+
+a:visited {
+    color: grey;
+}
+
+.albumas li:nth-child(2) {
+    text-decoration: underline;
+}
