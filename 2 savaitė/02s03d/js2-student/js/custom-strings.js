@@ -1,20 +1,30 @@
 /* 01.
 Sukurti du kintamuosius. Jiems priskirti savo mylimo aktoriaus vardą ir pavardę kaip stringus (Jonas Jonaitis). Atspausdinti trumpesnį stringą.
 */
+let autvar = "Oskaras";
+let autpav = "Vaildas";
+let short = autvar.slice(0, 1);
 
+console.log(autvar, autpav)
+console.log(short + ".", autpav)
 
 
 /* 02.
 Sukurti du kintamuosius. Jiems priskirti savo mylimo aktoriaus vardą ir pavardę kaip stringus. Vardą atspausdinti tik didžiosiom raidėm, o pavardę tik mažosioms. (LEONARDO dicaprio)
 */
 
+console.log(autvar.toUpperCase(), autpav.toLowerCase())
 
 
 /* 03.
 Sukurti du kintamuosius. Jiems priskirti savo mylimo aktoriaus vardą ir pavardę kaip stringus. Sukurti trečią kintamąjį ir jam priskirti stringą, sudarytą iš pirmų vardo ir pavardės kintamųjų raidžių. Jį atspausdinti.
 */
 
+// let nam = autvar.slice(0, 1);
+// let pav = autpav.slice(0, 1);
+// let sujung = sujung.concat(autvar, autpav);
 
+// console.log(autvar, sujung, autpav)
 
 /* 04.
 Sukurti du kintamuosius. Jiems priskirti savo mylimo aktoriaus vardą ir pavardę kaip stringus. Sukurti trečią kintamąjį ir jam priskirti stringą, sudarytą iš trijų paskutinių vardo ir pavardės kintamųjų raidžių. Jį atspausdinti.

@@ -33,6 +33,17 @@ Po 1 mėnesio(-ių) bus 16 avių!
 Po 2 mėnesio(-ių) bus 64 avių!
 */
 
+// for(numMenuo=0; numMenuo < kiekMenSpausdinti;numMenuo++){
+//     numMenuo= "Po " + numMenuo + " mėnesio(-ių) bus " + numAvys * numAvys + " avių!";
+//     // numMenuo++;
+//     console.log(numMenuo)
+// }
+
+while (numMenuo < kiekMenSpausdinti) {
+    numAvys = numAvys * numAvys;
+    numMenuo++;
+    console.log("Po " + numMenuo + " mėnesio(-ių) bus " + numAvys + " avių!");
+  }
 
 
 /*
@@ -40,13 +51,13 @@ Užduotis 4
 Atlikite užduotį JS 03 su for loop
 */
 
-/*let avys = 4;
-let menviso = 0;
-let menuo = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+// let avys = 4;
+// let menviso = 0;
+// let menuo = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
-for (let avys; menviso <= menuo.length; avys*4) {
-    console.log(avys++) 
-} */
+// for (avys=4; menviso <= menuo.length; avys++) {
+//     console.log(avys) 
+// }
 
 /*
 Užduotis 5
@@ -61,6 +72,11 @@ let totalGen = 19;
 let totalMW = 0;
 */
 
+let gentyp1 = 62;
+
+while (i = 0 < 4){
+    gentyp1 += 
+}
 
 
 /*
@@ -90,7 +106,6 @@ console.log(num);
 
 num--;
 }
-*/
 
 
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us | Fusion travel</title>
 </head>
 <body>
     <header class="site-header">
@@ -18,7 +18,7 @@
                     <li><a href="/">About Us</a></li>
                     <li><a href="/">Services</a></li>
                     <li><a href="/">Blog</a></li>
-                    <li><a href="/1 savaitė/s01d01/Projektas_Rosvaldas/Contact Us.html">Contact Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
                 </ul>
                 <!--Mobiliems nav-->
             </nav>
@@ -37,19 +37,14 @@
     </section>
     <section>
 <div class="contact-two">
-    <h1>Or have one of our agents call YOU!</h1>
-    <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" placeholder="Name"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" placeholder="Last name"><br>
-        <label for="email">email:</label><br>
-        <input type="email" id="email" placeholder="Your email"><br>
-        <label for="phonenumber">Phone number</label><br>
-        <input type="text" placeholder="Your phone number"><br>
-        <label for="yourmessage">Your Message:</label><br>
-        <textarea name="yourmessage" id="message" cols="25" rows="7"></textarea>
-        <input type="button">Submit</input>
+    <h1>Have one of our agents call YOU!</h1>
+    <form id="contact" action="post.php" method="post">
+        <input type="text" name="name" placeholder="Your name" required autofocus>
+        <input type="text" name="lname" placeholder="Your last name" required>
+        <input type="email" id="email" placeholder="Your email">
+        <input type="tel" name="phone-number" placeholder="Tel. 123456789 " pattern="[0-9]{3}[0-9]{3}[0-9]{3}">
+        <textarea placeholder="Your message" name="message" required></textarea>
+        <button name="submit" type="submit" id="contact_submit">Submit</button>
     </form>
     </section>
 </div>

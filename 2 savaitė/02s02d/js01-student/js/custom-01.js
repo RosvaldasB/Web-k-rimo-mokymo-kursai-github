@@ -61,9 +61,35 @@ let kin4 = Math.floor(Math.random() * 3)
 Naudokite funkcija Math.random(). Atspausdinkite 3 skaičius nuo -10 iki 10. Skaičiai mažesni už 0 turi būti  laužtiniuose skliaustuose [], 0 -  (), didesni už 0 {}.
 */
  
-let sk1 = Math.floor((Math.random() * (11 + -10 +1) - -10))
+let a6 = Math.floor(Math.random() * 21) -10;
+let b6 = Math.floor(Math.random() * 21) -10;
+let c6 = Math.floor(Math.random() * 21) -10;
 
-console.log(sk1)
+if(a6 > 0) {
+console.log("{" + a6 + "}")
+} else if (a6 === 0) {
+    console.log("(" + a6 + ")")
+} else {
+    console.log("[" + a6 + "]")
+} 
+
+if(b6 > 0) {
+    console.log("{" + b6 + "}")
+} else if (b6 === 0) {
+    console.log("(" + b6 + ")")
+} else {
+    console.log("[" + b6 + "]")
+} 
+c6
+if(c6 > 0) {
+    console.log("{" + c6 + "}")
+    } else if (c6 === 0) {
+        console.log("(" + c6 + ")")
+    } else {
+        console.log("[" + c6 + "]")
+    } 
+
+console.log(a6, b6, c6)
 
 
 /* 07.
@@ -93,9 +119,17 @@ skait = Math.floor(Math.random() * 100)
 Padarykite skaitmeninį laikrodį, rodantį valandas, minutes ir sekundes. Valandom, minutėm ir sekundėm sugeneruoti panaudokite funkciją Math.random(). Sugeneruokite skaičių nuo 0 iki 300. Tai papildomos sekundės. Skaičių pridėkite prie jau sugeneruoto laiko. Atspausdinkite laikrodį prieš ir po sekundžių pridėjimo ir pridedamų sekundžių skaičių.
 */
 
+let hr = Math.floor(Math.random() * 24);
+let minut = Math.floor(Math.random() * 60);
+let sec = Math.floor(Math.random() * 25);
+let psec = Math.floor(Math.random() * 301);
+
+console.log(hr+":"+minut+":"+sec)
+
+console.log(hr+":"+minut+":"+sec+"::"+psec)
 
 
-/* 10.
+/* 10.0
 Naudokite funkciją Math.random(). Sugeneruokite 6 kintamuosius su atsitiktinėm reikšmėm nuo 1000 iki 9999. Atspausdinkite reikšmes viename string'e, išrūšiuotas nuo didžiausios iki mažiausios, atskirtas tarpais. Naudoti ciklų ir masyvų NEGALIMA.
 */
 
